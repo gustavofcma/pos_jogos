@@ -1,0 +1,9 @@
+/*
+
+Trabalho para a próxima aula
+
+Adventure game (modo texto)
+
+com no máximo 5 interações com o usuário
+
+*/
