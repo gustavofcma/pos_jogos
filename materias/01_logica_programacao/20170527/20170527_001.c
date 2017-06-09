@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>    
 
-main ( )
-{
+main ( ) {
     int numero;
      printf("Digite um numero\n");
      scanf ("%d",&numero);
@@ -16,4 +15,3 @@ main ( )
      	             printf ("numero maior ou igual a 100\n\n");
      system("pause");
      }
-
