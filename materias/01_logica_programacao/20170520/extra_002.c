@@ -1,7 +1,6 @@
 #include<stdio.h>
 
-main ()
-{
+main () {
 	float salario, ajuste;
 	char sexo, opcao;
 	

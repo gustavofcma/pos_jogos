@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-main ()
-{
+main () {
 	float salario, ajuste;
 	char sexo;
 	printf ("Informe o salario: ");

@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-main ()
-{
+main () {
 	//declaração de variáveis
 	int idade;
 	char sexo;
