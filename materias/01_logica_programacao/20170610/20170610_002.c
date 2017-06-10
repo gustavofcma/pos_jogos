@@ -5,8 +5,9 @@
 
 main() {
     int cont;
-    for(cont=0;cont<3;cont++) {
-            printf("Testando a repeticao %d\n",cont);
+    for(cont=0;cont<30;cont++) {
+            printf("Exibindo o valor de cont %d\n",cont);
     }
     system("pause");
 }
+
