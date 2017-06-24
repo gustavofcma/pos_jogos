@@ -27,4 +27,5 @@ main() {
     }
     printf("\nA %dª pessoa é a mais nova, com %d anos!", menor_pos, menor_idade);
     printf("\nA %dª pessoa é a mais velha, com %d anos!\n", maior_pos, maior_idade);
+    system("PAUSE");
 }
