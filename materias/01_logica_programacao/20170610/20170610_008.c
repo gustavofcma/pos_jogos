@@ -1,5 +1,6 @@
 // EXERCÍCIO DO SLIDE 10
 // RECEBER IDADE DE 5 PESSOAS E EXIBIR A MAIS VELHA E A MAIS NOVA
+// GUSTAVO DE ALMEIDA
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -9,7 +10,7 @@
 main() {
     int i, idade, maior_idade=-1, menor_idade=INT_MAX, maior_pos, menor_pos, pessoas = 5;
 
-    setlocale(LC_ALL, "");
+    setlocale(LC_ALL, ""); // INSTRUÇÃO PARA PERMITIR O USO DE ACENTUAÇÃO
 
     printf("-----------------------------------------\n");
     for (i=0; i<pessoas; i++) {
@@ -26,6 +27,6 @@ main() {
         printf("-----------------------------------------\n");
     }
     printf("\nA %dª pessoa é a mais nova, com %d anos!", menor_pos, menor_idade);
-    printf("\nA %dª pessoa é a mais velha, com %d anos!\n", maior_pos, maior_idade);
+    printf("\nA %dª pessoa é a mais velha, com %d anos!\n\n", maior_pos, maior_idade);
     system("PAUSE");
 }
