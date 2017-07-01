@@ -6,13 +6,22 @@
 #include <locale.h> //biblioteca para utilizar a função setlocale que permite utilização de acentos e notação decimal com vírgulas
 
 main() {
-    int valor, negativos = 0;
+    int i = 0, valor, negativos = 0;
 
     setlocale(LC_ALL, "");
 
     do {
-        system("");
+        i++;
+        system("CLS");
+        printf("Digite o %dº número: ", i);
+        scanf("%d", &valor);
+        if (valor < 0) {
+            negativos++;
+        }
     } while (valor != 0);
+
+    system("CLS");
+    printf("O total de valores negativos é %d\n\n", negativos);
 
     system("PAUSE");
 }
